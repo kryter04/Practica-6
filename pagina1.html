@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos - Actividad 3</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e8f5e9; /* Fondo verde claro */
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mi Sitio Web</a>
+            <div class="navbar-nav">
+                <a class="nav-link active" href="pagina1.html">Galería de fotos</a>
+                <a class="nav-link" href="pagina2.html">Blog personal</a>
+                <a class="nav-link" href="pagina3.html">Portafolio de proyectos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container mt-5">
+        <h1 class="display-4 text-center mb-4 text-success">Galería de Fotos</h1>
+        
+        <!-- Sección de imágenes con Cards -->
+        <div class="row mb-4">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/img1.jpg" class="card-img-top" alt="Imagen 1">
+                    <div class="card-body">
+                        <p class="card-text">Descripción de la imagen 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/img2.jpg" class="card-img-top" alt="Imagen 2">
+                    <div class="card-body">
+                        <p class="card-text">Descripción de la imagen 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/img3.jpg" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <p class="card-text">Descripción de la imagen 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección de texto -->
+        <p class="lead">La fotografía es una forma de arte que captura momentos únicos en el tiempo. A través de la cámara, podemos plasmar emociones, paisajes y la belleza del mundo que nos rodea.</p>
+        <p>En esta galería, exploramos diferentes estilos de fotografía, desde retratos hasta fotografía de naturaleza. Cada imagen tiene una historia que contar.</p>
+        <p>La luz, la composición y el color son elementos clave que hacen de cada fotografía una obra única. Acompáñanos a descubrir la magia detrás del lente.</p>
+
+        <!-- Componente Bootstrap: Alert -->
+        <div class="alert alert-success" role="alert">
+            ¡Gracias por visitar nuestra galería! Esperamos que disfrutes de cada imagen.
+        </div>
+
+        <!-- Componente Bootstrap: Button -->
+        <div class="text-center">
+            <button type="button" class="btn btn-success btn-lg">Ver más fotos</button>
+        </div>
+
+        <!-- Enlaces de navegación -->
+        <div class="mt-4 text-center">
+            <a href="index.html" class="btn btn-outline-success">Volver al Inicio</a>
+            <a href="pagina2.html" class="btn btn-outline-primary">Ir al Blog</a>
+            <a href="pagina3.html" class="btn btn-outline-info">Ir al Portafolio</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
